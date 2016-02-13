@@ -17,5 +17,6 @@ ENV WORKDIR=/app PATH=/app/bin:${PATH} TERM=xterm CONTAINER=web LANG=C.UTF-8
 
 # Default command
 
-EXPOSE 3000 
+# EXPOSE 3000 
+EXPOSE 3000
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
