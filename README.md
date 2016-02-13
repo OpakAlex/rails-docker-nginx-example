@@ -1,4 +1,4 @@
-##!Important! Clone this repo into `~/` folder! (This directory will be sync with VM)
+### !Important! Clone this repo into `~/` folder! (This directory will be sync with VM)
 
 === Install:
  - `brew install virtualbox`
