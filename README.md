@@ -14,5 +14,6 @@
 - `eval $(docker-machine env lab)`
 - `docker-compose build`
 - `docker-compose run web bundle install`
+- `docker-compose run web rake db:create`
 - `docker-compose up`
 - Open in browser 'testapp.dev'
