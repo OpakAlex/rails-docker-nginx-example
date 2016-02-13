@@ -6,7 +6,7 @@ class DevTool
   end
 
   def install_bootsync_script
-    Kernel.system('docker-machine scp /usr/local/dev-env/docker/bootsync.sh lab:/tmp/bootsync.sh >/dev/null')
+    Kernel.system('docker-machine scp ./bootsync.sh lab:/tmp/bootsync.sh >/dev/null')
     Kernel.system('docker-machine ssh lab "sudo mv /tmp/bootsync.sh /var/lib/boot2docker/bootsync.sh" >/dev/null')
   end
 end

@@ -5,6 +5,7 @@
  - `brew install docker-machine`
  - `brew install dnsmasq`
  -  Add to `/etc/exports` line:  "/Users" 192.168.99.100 -alldirs -mapall=501:20
+ -  Add to `/etc/resolver/devs` line: nameserver 192.168.99.100
  - `sudo nfsd restart`
 
 === Run with docker:
@@ -13,7 +14,7 @@
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
 - `docker-compose build`
-- `bin/install.rb`
+- `cd bin && ./install.rb && cd ..`
 - `docker-machine restart lab`
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
