@@ -12,6 +12,6 @@
 - `docker-machine start lab`
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
-- `docker-composter build`
-- `docker-composter up`
+- `docker-compose build`
+- `docker-compose up`
 - Open in browser 'testapp.dev'
