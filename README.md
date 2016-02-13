@@ -13,5 +13,6 @@
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
 - `docker-compose build`
+- `docker-compose run web bundle install`
 - `docker-compose up`
 - Open in browser 'testapp.dev'
