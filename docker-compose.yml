@@ -1,0 +1,32 @@
+db:
+  image: postgres
+web:
+  build: .
+  dockerfile: Dockerfile
+  environment:
+    - VIRTUAL_HOST=testapp.dev
+    - VIRTUAL_PORT=3000
+    - HISTFILE=/app/.bash_history
+  expose:
+    - "3000"
+  volumes:
+  - .:/app
+  volumes_from:
+    - bundler
+  # command: rails s
+  links:
+    - db 
+    # - nginx:testapp.dev
+bundler:
+  image: ruby:2.1
+  command: /bin/true
+  volumes:
+  - /usr/local/bundle
+
+# nginx:
+#   image: jwilder/nginx-proxy
+#   ports:
+#     - "80:80"
+#   volumes:
+#     - /var/run/docker.sock:/tmp/docker.sock:ro
+#   restart: always
