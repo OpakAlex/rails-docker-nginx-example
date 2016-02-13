@@ -13,6 +13,10 @@
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
 - `docker-compose build`
+- `bin/install.rb`
+- `docker-machine restart lab`
+- `docker-machine env lab`
+- `eval $(docker-machine env lab)`
 - `docker-compose run web bundle install`
 - `docker-compose run web rake db:create`
 - `docker-compose up`
