@@ -14,7 +14,7 @@
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
 - `docker-compose build`
-- `cd bin && ./install.rb && cd ..`
+- `bin/install.rb`
 - `docker-machine restart lab`
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
