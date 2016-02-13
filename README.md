@@ -1,4 +1,5 @@
-### !Important! Clone this repo into `~/` folder! (This directory will be sync with VM)
+### !Important! 
+#### Clone this repo under `~/` folder(This directory will be sync with VM) like `~/rails/test-app`
 
 === Install:
  - `brew install virtualbox`
