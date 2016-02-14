@@ -24,4 +24,4 @@
 - `docker-compose run web bundle install`
 - `docker-compose run web rake db:create`
 - `docker-compose up`
-- Open in browser 'testapp.dev'
+- Open in browser `testapp.dev`
