@@ -2,6 +2,7 @@
 #### Clone this repo under `~/` folder(This directory will be sync with VM) like `~/rails/test-app`
 
 === Install:
+ - `brew install wget`
  - `brew install virtualbox`
  - `brew install docker`
  - `brew install docker-compose`
@@ -17,7 +18,7 @@
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
 - `docker-compose build`
-- `bin/install.rb`
+-  `curl https://gist.githubusercontent.com/OpakAlex/db44c598c166c93b561a/raw/da8f171ab84c03a1e149fbc3be7bf3feeaf5f1df/setup-docker-machine.sh | bash`
 - `docker-machine restart lab`
 - `docker-machine env lab`
 - `eval $(docker-machine env lab)`
